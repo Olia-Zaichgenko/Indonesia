@@ -18,6 +18,9 @@ h1{
     font-weight: 900;
     font-family: 'Roboto';
 }
+h4{
+    font-size: 42px;
+}
 h5{
     font-size: 26px;
 }
@@ -55,7 +58,7 @@ ul{
 .container-explore button p{
     padding:25px 70px;
 }
-.container-explore button{
+button{
     background-color: #DD2242;
     border-radius: 120px;
 }
@@ -90,3 +93,30 @@ ul{
 .play img{
     padding: 14px;
 }
+.section-destinations{
+    background: url(./img/bg2.png);
+    margin-top: -75px;
+}
+.nature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 280px;
+}
+.section-destinations .description{
+    width: 475px;
+}
+.section-destinations p{
+    color: #939393;
+    margin: 40px 0;
+}
+.section-destinations button{
+    padding: 15px 40px;
+}
+.beaches{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 200px;
+}
+
