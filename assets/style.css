@@ -18,6 +18,12 @@ h1{
     font-weight: 900;
     font-family: 'Roboto';
 }
+h2{
+    font-size: 60px;
+}
+h3{
+    font-size: 50px;
+}
 h4{
     font-size: 42px;
 }
@@ -118,5 +124,64 @@ button{
     display: flex;
     flex-direction: row-reverse;
     padding-bottom: 200px;
+}
+.section-secrets{
+    background: url(./img/bg3.png);
+}
+.section-secrets h3{
+    color: #010A20;
+    padding: 135px 0 45px 0;
+}
+.secrets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carusel img{
+    margin-right: 30px;
+}
+.carusel{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1720px;
+}
+.section-numbers{
+    background-color: rgba(9, 0, 24, 0.837);
+    margin-top: -790px;
+    padding: 180px 0;
+}
+.section-numbers p{
+    color: #939393;
+}
+.container-numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header1 p{
+    margin: 40px 0;
+    text-align: center;
+}
+.header1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+}
+.numbers h4{
+    color: #DD2242;
+}
+.numbers .number-one{
+    margin: 0 115px;
+}
+.numbers .number{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
